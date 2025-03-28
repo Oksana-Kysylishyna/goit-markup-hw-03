@@ -268,7 +268,6 @@ background: #2e2f42;
 }
 
 .portfolio-item {
-    border: 1px solid #e7e9fc;
     width: 360px;
     height: 420px;
     flex-wrap: wrap;
@@ -290,8 +289,7 @@ background: #2e2f42;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-top: 32px;
-        padding-left: 16px;
+        margin-bottom: 8px; 
 }
 
 .portfolio-title-text {
@@ -300,15 +298,19 @@ background: #2e2f42;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-top: 8px;
-        padding-left: 16px;
-        padding-bottom: 32px;
 }
 
 .portfolio-list {
     display: flex;
     gap: 48px 24px;
     flex-wrap: wrap;
+}
+
+.portfolio-container {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+
 }
 
 /*----------------------section3-------------------------------*/
@@ -330,14 +332,16 @@ background: #2e2f42;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     margin-right: 864px;
-    margin-top: 16px;
 }
 
 .logo .footer-logo {
-    display: inline-block;
-    margin-bottom: 16px;
     max-width: 100px;
     padding-right: 1013px;
+}
+
+.footer-logo {
+display: inline-block;
+margin-bottom: 16px;
 }
 
 /*----------------------footer--------------------------*/
