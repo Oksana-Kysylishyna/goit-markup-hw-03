@@ -24,6 +24,11 @@ a {
     margin: 0 auto;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 /*---------------header------------------------*/
 
 .page-header {
@@ -109,6 +114,11 @@ gap: 40px;
 /*----------------------header-------------------------------*/
 /*----------------------hero-------------------------------*/
 
+.hero {
+    height: 600px;
+    padding: 188px 0;
+}
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -116,9 +126,9 @@ gap: 40px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding: 188px 0;
     max-width: 496px;
     margin: 0 auto;
+    padding-bottom: 48px;
 }
 
 .hero-button {
@@ -149,13 +159,21 @@ background: #2e2f42;
 /*----------------------hero-------------------------------*/
 /*----------------------section1-------------------------------*/
 
+.made {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
 .made-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-top: 96px;        
 }
 
 .made-text {
@@ -164,8 +182,7 @@ background: #2e2f42;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-top: 8px;
-        padding-bottom: 96px;        
+        padding-top: 8px;                
 }
 
 .made-list {
