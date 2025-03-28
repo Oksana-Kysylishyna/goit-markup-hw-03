@@ -164,8 +164,16 @@ background: #2e2f42;
 }
 
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .made-title {
@@ -174,6 +182,7 @@ background: #2e2f42;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .made-text {
@@ -198,6 +207,7 @@ background: #2e2f42;
 /*----------------------section2-------------------------------*/
 
 .team {
+    padding: 120px 0;
     background: #f4f4fd;
     text-transform: capitalize;
 }
@@ -210,13 +220,13 @@ background: #2e2f42;
 }
 
 .team-title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding: 120px;
 }
 
 .team-title-com {
@@ -226,8 +236,7 @@ background: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-title-text {
@@ -237,7 +246,6 @@ background: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-bottom: 32px;
 }
 
 .team-list {
@@ -245,10 +253,16 @@ background: #2e2f42;
     gap: 24px;
 }
 
+.team-container {
+    padding: 32px 0;
+}
+
 /*----------------------section2-------------------------------*/
 /*----------------------section3-------------------------------*/
 
 .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: #fff;
     text-transform: capitalize;
 }
@@ -261,13 +275,13 @@ background: #2e2f42;
 }
 
 .portfolio-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        padding: 96px;
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .portfolio-title-com {
@@ -302,7 +316,7 @@ background: #2e2f42;
 
 .page-footer {
     background-color: #2e2f42;
-    margin-top: 98px;
+    padding: 100px 0
 }
 
 .footer-logo .logo-part {
@@ -317,10 +331,11 @@ background: #2e2f42;
     color: #f4f4fd;
     margin-right: 864px;
     margin-top: 16px;
-    padding-bottom: 100px;
 }
 
 .logo .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
     max-width: 100px;
     padding-right: 1013px;
 }
