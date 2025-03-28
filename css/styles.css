@@ -110,27 +110,31 @@ gap: 40px;
 /*----------------------hero-------------------------------*/
 
 .hero-title {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
-        padding: 188px 316px 48px 316px;
-        }
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    padding: 188px 0;
+    max-width: 496px;
+    margin: 0 auto;
+}
 
 .hero-button {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        background: #4d5ae5;
-        margin-bottom: 185px;
-        border-radius: 4px;
-            padding: 16px 32px;
-            min-width: 169px;
-            height: 56px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    margin: 0 auto;
 }
 
 .hero-button:hover,
